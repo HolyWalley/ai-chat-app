@@ -1,0 +1,13 @@
+name = "ai-chat-app"
+compatibility_date = "2023-10-01"
+
+[build]
+command = "npm run build"
+
+[build.environment]
+NODE_VERSION = "16"
+
+[site]
+bucket = "./build"
+entry-point = "./functions"
+
